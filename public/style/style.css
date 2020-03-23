@@ -1,0 +1,65 @@
+.mainCard{
+    width: 500px;
+    border: 0.1px solid rgb(92, 91, 91);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgb(233, 231, 231);
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.votingBody{
+  width: 500px;
+  border: 0.1px solid rgb(92, 91, 91);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: rgb(233, 231, 231);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.noneDecorated{
+    color: black;
+  }
+  .noneDecorated:hover{
+    text-decoration: none;
+    color: black;
+  } 
+.list{
+  margin-top: 5px;
+}
+.list::after{
+  content: '';
+  display: block;
+  height: 0.7px;
+  background: black;
+}
+.logIn{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;   
+  width: 500px;
+  z-index: 3;
+  padding: 10px;
+  border: 0.1px solid rgb(92, 91, 91);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: rgb(233, 231, 231);
+}
+.overlay {
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.btnMenu{
+  padding: 0px;
+  position: absolute;
+  top:2px;
+  left: 466px;
+}
+.dropMenu{
+  position: absolute;
+  top: 2px;
+  left: 503px;
+}
